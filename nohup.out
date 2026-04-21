@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/student/albalkh5/301/group_3532/A2_Component2/src/ISCS/ISCS.py", line 354, in <module>
+    run()
+  File "/student/albalkh5/301/group_3532/A2_Component2/src/ISCS/ISCS.py", line 349, in run
+    server = ThreadedHTTPServer((ISCS_IP, ISCS_PORT), MyHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/student/albalkh5/301/group_3532/A2_Component2/src/ISCS/ISCS.py", line 354, in <module>
+    run()
+  File "/student/albalkh5/301/group_3532/A2_Component2/src/ISCS/ISCS.py", line 349, in run
+    server = ThreadedHTTPServer((ISCS_IP, ISCS_PORT), MyHandler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Server started on port 8068

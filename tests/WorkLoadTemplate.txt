@@ -1,0 +1,12 @@
+USER create <id> <username> <email> <password>
+USER get <id>
+USER update <id> username:<username> email:<email> password:<password>
+USER delete <id> <username> <email> <password>
+PRODUCT create <id> <name> <description> <price> <quantity>
+PRODUCT info <id>
+PRODUCT update <id> name:<name> description:<description> price:<price> quantity:<quantity>
+PRODUCT delete <id> <name> <price> <quantity>
+ORDER place <product_id> <user_id> <quantity>
+
+
+For simplicity sake, you can assume that the description (and any other field that might usually contain spaces) is just an alphanumeric string with no spaces.

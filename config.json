@@ -1,0 +1,30 @@
+{
+  "UserService": {
+    "port": 8066,
+    "ip": "142.1.46.21"
+  },
+  "OrderService": {
+    "port": 8068,
+    "ip": "142.1.46.26"
+  },
+  "ProductService": {
+    "port": 8069,
+    "ip": "142.1.46.22"
+  },
+  "InterServiceCommunication": {
+    "port": 8070,
+    "ip": "142.1.46.27"
+  },
+  "Database": {
+    "ip": "142.1.114.76",
+    "port": "5433"
+},
+"LoadBalancer": {
+    "ip": "142.1.46.25",
+    "port": 8080,
+     "backends": [
+  {"ip": "142.1.46.26", "port": 8068},
+  {"ip": "142.1.46.28", "port": 8068}
+]
+  }
+}
