@@ -1,4 +1,4 @@
-# Distributed Microservices System with Load Balancing
+# HTTP-Distributed-Microservices with Load Balancing and Inter-Service Communication
 
 A multi-service distributed system built in Java and Python featuring order, user, and product microservices with inter-service communication, load balancing, and throughput optimization.
 
