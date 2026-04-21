@@ -312,7 +312,7 @@ python tests/test_script_user.py
 
 ### Profiling
 
-See `Profiling and Architecture.pdf` for detailed throughput analysis and bottleneck identification.
+See `Profiling and Architecture.pdf` for detailed throughput and architecture analysis.
 
 ## Dependencies
 
